@@ -69,3 +69,11 @@ html {
 .circle-img-link {
     outline: none;
 }
+
+.card {
+    max-width: 300px;
+}
+
+.grid-x {
+    justify-content: space-around;
+}
