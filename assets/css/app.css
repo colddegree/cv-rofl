@@ -1,0 +1,20 @@
+.logo {
+    max-width: 128px;
+}
+
+.circle {
+    border: 2px solid black;
+    border-radius: 50%;
+    /*max-width: 20vmax;*/
+    max-height: 20vmax;
+    margin: 20px;
+    justify-content: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
