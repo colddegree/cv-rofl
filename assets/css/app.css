@@ -95,3 +95,10 @@ html {
     background-color: #188acb;
 }
 
+.cell a img {
+    transition-duration: 2s;
+}
+
+.cell a img:hover {
+    border: 0;
+}
