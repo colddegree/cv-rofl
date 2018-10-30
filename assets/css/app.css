@@ -3,18 +3,29 @@
 }
 
 .circle {
-    border: 2px solid black;
+    border: 2px solid #1779ba;
     border-radius: 50% 50%;
     max-height: 25vmax;
 }
 
+body {
+    position: relative;
+}
+
+main {
+    padding: 30px 40px;
+    padding-bottom: 100px;
+}
+
+
 footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    display: none;
+    /*background-color: rgba(83,92,159,0.54);*/
+    /*display: none;*/
 }
 
 .center-img {
@@ -22,6 +33,7 @@ footer {
     margin: 0 auto;
     margin-top: 50px;
 }
+
 
 .description {
     font-size: 2vmax;
