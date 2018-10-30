@@ -70,8 +70,28 @@ html {
 
 .card {
     max-width: 300px;
+    transition-duration: 1s;
+}
+
+.card:hover {
+    max-width: 320px;
 }
 
 .grid-x {
     justify-content: space-around;
 }
+
+.menu a {
+    transition-duration: 1s;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #17a1ea;
+}
+
+.menu li:active {
+    color: white;
+    background-color: #188acb;
+}
+
