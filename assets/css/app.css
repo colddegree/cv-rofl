@@ -25,7 +25,7 @@ footer {
     width: 100%;
     text-align: center;
     /*background-color: rgba(83,92,159,0.54);*/
-    /*display: none;*/
+    display: none;
 }
 
 .center-img {
@@ -52,3 +52,17 @@ footer {
 html {
     overflow-x: hidden;
 }
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.project {
+    margin: 20px 10px;
+}
+
+.project figcaption {
+    margin: 5px;
+    text-align: center;
+}
+
