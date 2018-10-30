@@ -82,7 +82,7 @@ html {
 }
 
 .menu a {
-    transition-duration: 1s;
+    transition-duration: 0.3s;
 }
 
 .menu a:hover {
