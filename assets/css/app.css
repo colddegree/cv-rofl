@@ -102,3 +102,8 @@ html {
 .cell a img:hover {
     border: 0;
 }
+
+li a img {
+    width: 40px;
+    padding: 5px;
+}
